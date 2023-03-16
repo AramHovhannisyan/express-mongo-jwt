@@ -62,7 +62,7 @@ app.get('/health', (req, res) => res.sendStatus(200));
 app.get('/favicon.ico', (req, res) => res.sendStatus(204));
 
 app.use('/api/v1/test', testRouter);
-app.use('/user', userRouter);
+app.use('/api/v1/users', userRouter);
 
 app.use((req, res, next) => next(problem(1002, req)));
 

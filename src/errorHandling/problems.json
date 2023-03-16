@@ -30,8 +30,8 @@
   },
   {
     "code": 1006,
-    "status": 401,
-    "title": "Wrong Authentication Type",
+    "status": 400,
+    "title": "Bad Request",
     "skipLogging": true
   },
   {
